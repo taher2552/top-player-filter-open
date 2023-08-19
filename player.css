@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general css start  */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --acc-color: #17479E;
+    --border-color: #dcdcdc;
+    --light-grey: #AAA;
+    --active-bg: #C7DBFF;
+    --search-bg: #fcfcfc;
+    --btn-red: #E73725;
+    --font-color: #505050;
+    --light-bg: #f8f8f8;
+    --save-btn: #077838;
+}
+
+.common-fonts {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: -0.02563rem;
+}
+
+/* general css start ends */
+
+/* page top css starts */
+
+.landing-page-container {
+    background-color: var(--white);
+}
+
+.landing-page-box {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.landing-page-player {
+    width: 2.19506rem;
+    height: 2.125rem;
+    border-radius: 50%;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.landing-page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.landing-page-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page-search {
+    margin-left: 0.8rem;
+    background-color: var(--search-bg);
+    padding: 0.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.landing-page-menu {
+    cursor: pointer;
+}
+
+/* page top css ends */
+
+/* filter section css starts here  */
+.top-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.top-filter-text {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+
+.top-filter-open {
+    border: 1px solid var(--border-color);
+    border-radius: 0.3125rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.5rem 1rem;
+
+}
+
+.top-label {
+    color: bar(--font-color);
+}
+
+.top-input-section {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+}
+
+.top-input {
+    border-radius: 0.1875rem;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    width: 100%;
+    padding:0.3rem 0.5rem;
+}
+
+.top-input::placeholder{
+    color:var(--light-grey);
+}
+
+.top-bottom-clear{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 0.94rem;
+    cursor: pointer;
+}
+
+.top-clear{
+    color:var(--acc-color);
+}
+
+/* filter section css ends here  */
+
+/* background css  */
+.top-player-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.top-player-bg img {
+    max-width: 100%;
+    height: 5rem;
+}
+
+.top-fb-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* background css ends */
+
+/* card section starts here  */
+.top-card-section {
+    margin: 1rem;
+    margin-top: 1.5rem;
+}
+
+.top-cards {
+    border: 1px solid var(--border-color);
+    background: var(--white);
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.05);
+    padding: 0.94rem;
+    margin-bottom: 0.94rem;
+}
+
+.card-top {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.card-player {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    margin-right: 0.56rem;
+}
+
+.top-player-name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.top-position {
+    color: var(--font-color);
+}
+
+.card-middle {
+    margin-top: 0.94rem;
+}
+
+.top-player-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.top-details {
+    font-weight: 600;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-map {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.card-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.top-map img {
+    margin-right: 0.2rem;
+}
+
+.top-profile-btn {
+    background-color: var(--white);
+    color: var(--btn-red);
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--btn-red);
+    cursor: pointer;
+}
+
+/* card section ends here  */
+
+/* pagination section starts here  */
+.top-pagination {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.top-pagination-text {
+    margin-bottom: 0.94rem;
+    font-weight: 600;
+}
+
+.top-pg-numbers {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.top-pg-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.88rem;
+    border: 1px solid var(--border-color);
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.page-active {
+    border: 1px solid var(--btn-red);
+    color: var(--white);
+    background-color: var(--btn-red);
+}
+
+/* pagination section ends here  */
+
+@media only screen and (max-width: 440px) {
+    .top-fb-text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .top-fb-text {
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (max-width: 302px) {
+    .top-fb-text {
+        font-size: 0.7rem;
+    }
+}
